@@ -11,7 +11,8 @@ document.getElementById("headlineID").innerText="Changing the text for Exercise 
 //     '</ul>';
 
 var Ex2Variable= document.getElementById("genericID").innerText;
-console.log(Ex2Variable);
+document.getElementById("genericID").innerText= Ex2Variable + "Maddi Coope";
 //don't know what to do after this
+//update: thank JP 
 
 document.getElementById("kennButton").innerText='Changing text for Ex3';
